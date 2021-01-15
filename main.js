@@ -10,3 +10,4 @@ ASSET_MANAGER.downloadAll(function () {
 	gameEngine.addEntity(new mega(gameEngine));
 	gameEngine.start();
 });
+
