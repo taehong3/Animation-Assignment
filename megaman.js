@@ -119,7 +119,7 @@ class Megaman {
   
     draw(ctx) {
 
-      this.animations[this.facing][this.state][this.action].drawFrame(this.game.clockTick, ctx, this.x, this.y, 2);
+      this.animations[this.facing][this.state][this.action].drawFrame(this.game.clockTick, ctx, this.x, this.y, 5);
       
     };
 
